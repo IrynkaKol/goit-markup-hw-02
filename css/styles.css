@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+        color: #757575;
+    background-color:  #E5E5E5;
+  }
+  .list {
+    list-style: none;
+  }
+.logo {
+  color: #000000;
+  }
+  .words {
+    color: #2196F3;
+  }
+ 
