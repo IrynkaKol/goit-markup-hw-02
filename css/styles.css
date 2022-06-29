@@ -13,6 +13,8 @@ body {
     color: var(--primary-text-color);
 }
 
+
+
 .logo {
     color: var(--text-main-color)
 }
@@ -26,16 +28,9 @@ body {
     color: var(--accent-color);
 }
 
-/*Hero*/
-.hero-title {
-    color: var(--text-color);
-    background-color: #2F303A;
-}
-.contacts-link {
-    color: var(--primary-text-color);
-}
 
 /*Site nav*/
+
 .site-nav .link {
     color: var(--title-text-color);
 }
@@ -44,21 +39,48 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-
+.site-nav .link.surrent {
+    color: var();
+}
 .section-title {
     color: var(--title-text-color)
 }
+.contacts-link {
+    color: var(--primary-text-color);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title {
+    color: var(--text-color);
+    background-color: #2F303A;
+}
+
+.hero-button {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+
+}
+
 
 /*Features section*/
 .features .features-title {
     color: var(--title-text-color);
 }
 
+/*About section*/
 
-/*Portfolio*/
-.portfolio-item {
+
+/*Team section*/
+.team-section .subtitle {
     color: var(--title-text-color);
 }
+
+
+
 
 
 /*Footer sectiom*/
@@ -79,4 +101,19 @@ body {
 color: var(--text-color);
 background-color: #2F303A;
 }
+
+/*Portfolio*/
+.portfolio-item {
+    color: var(--title-text-color);
+}
+
+.navigation .button {
+    color: var(--title-text-color);
+   background-color: F5F4FA;
+}
+.navigation .button:hover {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+
 
