@@ -1,22 +1,82 @@
 :root {
     --primary-text-color:#757575;
     --title-text-color: #212121;
+    --text-main-color: #000000;
+    --text-color: #ffffff;
     --accent-color: #2196F3;
-    /*color^ #000000*/
+    
 
 }
 body {
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
+}
+
+.logo {
+    color: var(--text-main-color)
+}
+.logo-word {
+    color: var(--accent-color);
 }
 .list {
     list-style: none;
 }
+.header-mail {
+    color: var(--accent-color);
+}
 
-    
+/*Hero*/
+.hero-title {
+    color: var(--text-color);
+    background-color: #2F303A;
+}
+.contacts-link {
+    color: var(--primary-text-color);
+}
 
- 
-/*основные цвета*/
+/*Site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color: var(--title-text-color)
+}
+
+/*Features section*/
+.features .features-title {
+    color: var(--title-text-color);
+}
 
 
+/*Portfolio*/
+.portfolio-item {
+    color: var(--title-text-color);
+}
+
+
+/*Footer sectiom*/
+
+ .contacts-item .contacts-link {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+ }
+.footer .contacts-adress {
+    color: var(--text-color);
+    background-color: #2F303A;
+}
+.footer .footer-word {
+    color: var(--accent-color);
+    background-color: #2F303A;
+}
+.footer .logo {
+color: var(--text-color);
+background-color: #2F303A;
+}
 
