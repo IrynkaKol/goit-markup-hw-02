@@ -15,11 +15,19 @@ body {
   list-style: none;
   cursor: pointer;
 }
+
+.header-link-current {
+  color: #2196f3;
+}
+
+.link {
+  text-decoration: none;
+}
 button {
   cursor: pointer;
 }
 
-.logo {
+.header .logo {
   color: var(--text-main-color);
   font-family: 'Raleway';
   font-size: 26px;
@@ -29,9 +37,6 @@ button {
 
 .logo-word {
   color: var(--accent-color);
-}
-.link {
-  text-decoration: none;
 }
 
 .header-mail {
@@ -77,17 +82,24 @@ button {
 }
 
 /*Hero*/
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   color: var(--text-color);
-  background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
   color: var(--text-color);
   background-color: var(--accent-color);
 }
@@ -119,8 +131,7 @@ button {
   text-align: center;
 }
 .team-position {
-  font-size: 16px;
-  line-height: 1.19;
+  line-height: calc(19 / 16);
   text-align: center;
 }
 
@@ -137,11 +148,14 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .contacts-item .contacts-link {
+  font-family: normal;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .contacts-item .contacts-link:hover {
   color: var(--accent-color);
@@ -152,6 +166,7 @@ button {
   background-color: #2f303a;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .footer .contacts-adress:hover {
   color: var(--accent-color);
@@ -163,11 +178,11 @@ button {
 }
 
 .filter button {
+  font-family: inherit;
   color: var(--title-text-color);
   background-color: F5F4FA;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+  line-height: calc(26 / 16);
   text-align: center;
   cursor: pointer;
 }
