@@ -41,7 +41,7 @@ button {
 }
 
 /*Site nav*/
-.current {
+.header-link-current {
   color: var(--accent-color);
 }
 
