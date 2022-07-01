@@ -16,13 +16,10 @@ body {
   cursor: pointer;
 }
 
-.header-link-current {
-  color: #2196f3;
-}
-
 .link {
   text-decoration: none;
 }
+
 button {
   cursor: pointer;
 }
@@ -44,6 +41,9 @@ button {
 }
 
 /*Site nav*/
+.current {
+  color: var(--accent-color);
+}
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -57,9 +57,10 @@ button {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.surrent {
-  color: var();
-}
+
+
+
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -170,6 +171,7 @@ button {
 }
 .footer .contacts-adress:hover {
   color: var(--accent-color);
+  font-style: normal;
 }
 
 /*Portfolio*/
@@ -182,6 +184,7 @@ button {
   color: var(--title-text-color);
   background-color: F5F4FA;
   font-weight: 500;
+  font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   cursor: pointer;
@@ -202,7 +205,6 @@ button {
 }
 .portfolio .text {
   color: var(--primary-text-color);
-  font-size: 16px;
   line-height: 1.88;
 }
 
